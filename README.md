@@ -81,7 +81,11 @@ uvicorn app.main:app --reload
 
 ```
 
-Open Browser : http://localhost:8000
+## Open Browser
+
+```
+http://localhost:8000
+```
 
 ✨ Features
 🔗 Accept up to 3 web URLs.
