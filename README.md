@@ -25,26 +25,20 @@ This project is an AI-powered web application that allows users to:
 
 ## 📂 Folder Structure
 
+```
 main_project/
 
 │
-
 ├── app/
-
 │ ├── main.py # FastAPI backend
-
 │ ├── schemas/models.py # Pydantic schemas
-
 │ ├── static/ # Frontend assets (CSS, JS)
-
 │ ├── templates/ # HTML templates using Jinja2
-
 │ └── faiss_index/ # Saved FAISS index
-
 │
 ├── requirements.txt # Python dependencies
-
 └── README.md # Project documentation
+```
 
 ---
 
