@@ -105,25 +105,27 @@ http://localhost:8000
 ---
 
 🛠 Future Improvements
-\*File upload for PDF/Docx.
 
-\*Chat history + user sessions.
+- File upload for PDF/Docx.
 
-\*Docker + CI/CD pipeline.
+- Chat history + user sessions.
 
-\*Streamed answer rendering (already supported in JS).
+- Docker + CI/CD pipeline.
 
-\*Switch to OpenAI if needed.
+- Streamed answer rendering (already supported in JS).
+
+- Switch to OpenAI if needed.
 
 🙌 Acknowledgements
-\*LangChain
 
-\*Google Generative AI
+- LangChain
 
-\*FastAPI
+- Google Generative AI
 
-\*FAISS
+- FastAPI
+
+- FAISS
 
 💡 Author
 Prashanth Gowda A S
-📧 LinkedIn
+📧 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/prashanthgowda/)
