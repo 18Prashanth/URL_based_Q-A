@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from .schemas import models
-
 import os
 import langchain
 from langchain_community.document_loaders import UnstructuredURLLoader
@@ -20,7 +19,7 @@ from pathlib import Path
 from fastapi import Request
 from fastapi.responses import HTMLResponse
 # load_dotenv()
-# api_key = os.getenv("AIzaSyCioDV4h-o3kJSvHSO-vFwDtO1zTfG0c7c")
+# api_key = os.getenv("..."")
 # print("GEMINI_API_KEY:", api_key)  # This should print your key, not None
 
 # if api_key is None:
