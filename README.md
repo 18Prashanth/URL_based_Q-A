@@ -11,30 +11,39 @@ This project is an AI-powered web application that allows users to:
 
 ## 🔧 Tech Stack
 
-| Component  | Technology                                          |
-| ---------- | --------------------------------------------------- |
-| Backend    | [FastAPI](https://fastapi.tiangolo.com/)            |
-| Frontend   | HTML, CSS, Vanilla JavaScript                       |
-| LLM        | [Gemini Pro (GenerativeAI)](https://ai.google.dev/) |
-| Vector DB  | [FAISS](https://github.com/facebookresearch/faiss)  |
-| Embeddings | `GoogleGenerativeAIEmbeddings`                      |
-| Loader     | `UnstructuredURLLoader` (LangChain)                 |
-| Chain      | `RetrievalQAWithSourcesChain`                       |
+| Component  | Technology                                         |
+| ---------- | -------------------------------------------------- |
+| Backend    | [FastAPI](https://fastapi.tiangolo.com/)           |
+| Frontend   | HTML, CSS, JavaScript                              |
+| LLM        | [Gemini (GenerativeAI)](https://ai.google.dev/)    |
+| Vector DB  | [FAISS](https://github.com/facebookresearch/faiss) |
+| Embeddings | `GoogleGenerativeAIEmbeddings`                     |
+| Loader     | `UnstructuredURLLoader` (LangChain)                |
+| Chain      | `RetrievalQAWithSourcesChain`                      |
 
 ---
 
 ## 📂 Folder Structure
 
 main_project/
+
 │
+
 ├── app/
+
 │ ├── main.py # FastAPI backend
+
 │ ├── schemas/models.py # Pydantic schemas
+
 │ ├── static/ # Frontend assets (CSS, JS)
+
 │ ├── templates/ # HTML templates using Jinja2
+
 │ └── faiss_index/ # Saved FAISS index
+
 │
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project documentation
 
 ---
