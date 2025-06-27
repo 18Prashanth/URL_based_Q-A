@@ -102,7 +102,7 @@ http://localhost:8000
 
 ## 📸 Screenshots
 
----
+## ![App Screenshot](/img2.png)
 
 🛠 Future Improvements
 
