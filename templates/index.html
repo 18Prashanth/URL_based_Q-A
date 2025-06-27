@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Summary Tool Chatbot</title>
+  </head>
+  <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+      🌙
+    </button>
+
+    <div class="container">
+      <!-- Left Panel -->
+      <div class="left-panel">
+        <h2 class="panel-header">URL Configuration</h2>
+        <form id="urlForm">
+          <div class="form-group">
+            <label for="url1"
+              >Primary URL <span class="required">*</span></label
+            >
+            <input
+              type="url"
+              id="url1"
+              name="url1"
+              required
+              placeholder="https://example.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="url2">Secondary URL (Optional)</label>
+            <input
+              type="url"
+              id="url2"
+              name="url2"
+              placeholder="https://example2.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="url3">Tertiary URL (Optional)</label>
+            <input
+              type="url"
+              id="url3"
+              name="url3"
+              placeholder="https://example3.com"
+            />
+          </div>
+
+          <button type="submit" class="process-btn" id="processBtn">
+            <span id="processBtnText">Process URLs</span>
+          </button>
+
+          <div class="control-buttons">
+            <button type="button" class="control-btn" id="newChatBtn">
+              🔄 New Chat
+            </button>
+            <button type="button" class="control-btn danger" id="clearChatBtn">
+              🗑️ Clear Chat
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="right-panel">
+        <div class="chat-header">
+          <h1>Summary Tool</h1>
+          <p>Ask questions about your processed content</p>
+        </div>
+
+        <div class="chat-body">
+          <div class="chat-controls">
+            <button type="button" class="chat-control-btn" id="newChatTopBtn">
+              🔄 New Chat
+            </button>
+            <button
+              type="button"
+              class="chat-control-btn clear"
+              id="clearChatTopBtn"
+            >
+              🗑️ Clear Messages
+            </button>
+          </div>
+
+          <div class="chat-messages" id="chatMessages">
+            <div class="empty-state">
+              Start by processing URLs on the left, then ask your questions
+              here!
+            </div>
+          </div>
+
+          <div class="chat-input">
+            <div class="input-group">
+              <label for="questionInput">Your Question</label>
+              <textarea
+                id="questionInput"
+                placeholder="Ask a question about the processed content..."
+                rows="2"
+              ></textarea>
+            </div>
+            <button type="button" class="submit-btn" id="submitBtn" disabled>
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../static/app.js"></script>
+  </body>
+</html>
